@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/layout_1">
+
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Who is your favourite Singer "
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_fetch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=" \?"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/layout_2"
+        android:layout_below="@id/layout_1"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/q4b1"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="K.K"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_alignBaseline="@+id/q4b2"
+            android:layout_alignBottom="@+id/q4b2"
+            android:layout_toLeftOf="@+id/q4b2"
+            android:layout_toStartOf="@+id/q4b2" />
+
+        <Button
+            android:id="@+id/q4b2"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="Sunidhi Chauhan"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/q4b3"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="A.R.Rehman"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/q4b1"
+            android:layout_alignStart="@+id/q4b1" />
+
+        <Button
+            android:id="@+id/q4b4"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="Badshah"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_alignBaseline="@+id/q4b3"
+            android:layout_alignBottom="@+id/q4b3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

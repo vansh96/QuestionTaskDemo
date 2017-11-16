@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffaa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/layout_1">
+
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Who is your favourite cricketer "
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_fetch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=" \?"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/layout_1"
+        >
+
+        <Button
+            android:id="@+id/q1b1"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="Sachin Tendulkar"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_alignBaseline="@+id/q1b2"
+            android:layout_alignBottom="@+id/q1b2"
+            android:layout_toLeftOf="@+id/q1b2"
+            android:layout_toStartOf="@+id/q1b2" />
+
+        <Button
+            android:id="@+id/q1b2"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="Virat Kohli"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/q1b3"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="AB D Villares"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/q1b1"
+            android:layout_alignStart="@+id/q1b1" />
+
+        <Button
+            android:id="@+id/q1b4"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="Chris Gayle"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_alignBaseline="@+id/q1b3"
+            android:layout_alignBottom="@+id/q1b3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
